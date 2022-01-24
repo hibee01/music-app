@@ -4,6 +4,11 @@
     padding: 0;
 }
 
+div {
+    width: 70%;
+    margin: auto;
+}
+
 .rwandaful-img {
     width: 100%;
 }
@@ -12,7 +17,7 @@
     display: none;
 }
 
-.container-rw {
+/* .container-rw {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -23,9 +28,23 @@
 
 .store {
     width: 50%;
+} */
+
+@media (max-width: 1920px) {
+    div {
+        width: 90%;
+        margin: auto;
+    }
 }
 
+
 @media (max-width: 767px) {
+
+    div {
+        width: 100%;
+        margin: auto;
+    }
+    
     .rwandaful-img {
         display: none;
     }
