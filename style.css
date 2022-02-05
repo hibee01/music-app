@@ -5,7 +5,7 @@
 }
 
 div {
-    width: 70%;
+    width: 100%;
     margin: auto;
 }
 
@@ -17,33 +17,9 @@ div {
     display: none;
 }
 
-/* .container-rw {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin: 0 auto;
-    background-color: black;
-    padding: 0.8rem 0;
-}
-
-.store {
-    width: 50%;
-} */
-
-@media (max-width: 1920px) {
-    div {
-        width: 90%;
-        margin: auto;
-    }
-}
-
 
 @media (max-width: 767px) {
 
-    div {
-        width: 100%;
-        margin: auto;
-    }
     
     .rwandaful-img {
         display: none;
